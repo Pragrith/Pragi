@@ -1,4 +1,4 @@
-# Pragrith
+# pragrithv
 Welcome to my profile!
 
 <!-- Banner -->
