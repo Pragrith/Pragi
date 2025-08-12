@@ -46,35 +46,44 @@ Welcome to my profile!
 ## 📂 Featured Projects
 
 ### 🔹 OpenBMC Hardware Simulation & Redfish API Integration
-Simulated hardware sensor data (power, temperature, voltage) using **OpenBMC QEMU** and exposed it via **Redfish REST API** for a custom dashboard.
-- 🛠 Tech: OpenBMC, Yocto, QEMU, DBus, Redfish, curl/jq, systemd
-- 🔗 [GitHub Repo](https://github.com/openbmc/openbmc)
-- 📷 **Screenshot / Architecture Diagram:**
-![OpenBMC Screenshot](https://via.placeholder.com/800x400.png?text=OpenBMC+Simulation)
 
----
+🛠 Tech: OpenBMC, Yocto, QEMU, DBus, Redfish, curl/jq, systemd
+
+💪 Accomplishments:
+- Simulated hardware sensor data (power, temperature, voltage) using **OpenBMC QEMU** and exposed it via **Redfish REST API** for a custom dashboard.
+- Extracted and parsed sensor values using **curl**, verified with real-time system via **systemctl** commands.
+- Bridged the gap between simulated sensors in QEMU and Redfish REST output, showing the values of the system. 
+- Automated and viewed testing and monitoring commands to validate health, temperature, and voltage fields. 
+- Laid groundwork for integrating dashboard metrics into a **GUI** or backend framework
 
 ### 🔹 LLVM McToll — Binary Translator Debugging
-Improved **LLVM McToll**’s AND instruction handling by debugging compiler errors and enhancing multi-architecture test systems.
-- 🛠 Tech: C++, LLVM IR, assembly-level debugging, Clang, lit testing
-- 🔗 [LLVM Project Link](https://github.com/llvm/llvm-project)
-- 📷 **Screenshot / Flow Diagram:**
-![LLVM Screenshot](https://via.placeholder.com/800x400.png?text=LLVM+McToll)
+
+🛠 Tech: C++, LLVM IR, assembly-level debugging, Clang, lit testing
+ 
+💪 Accomplishments:
+- Achieved working proficiency in Linux for software development and debugging purposes. Understood the architecture and goals of the LLVM-Mctoll project and actively contributed to it.
+- Changed the architecture and refactored the system from **x86 to Arch64**.
+- Completed and validated a **test case** for the **AND instruction**, representing a functional step in the dynamic translation workflow.  
+- Improved overall system performance through debugging, optimization, and memory management.
+- Debugged compiler errors and enhanced multi-architecture test systems.
 
 ---
 
 ### 🔹 Chess Application — ARM to ARM64 Migration & Backend Integration
-Migrated Android chess app from ARM to ARM64 for better performance and compliance with **Google Play’s 64-bit requirement**.
-- 🛠 Tech: Android Studio, Java/Kotlin, NDK, Gradle, ARM64 optimization
-- 🔗 [Project Repo](#)
-- 📷 **Screenshot / App UI:**
-![Chess App Screenshot](https://via.placeholder.com/800x400.png?text=Chess+App+UI)
+
+🛠 Tech: Android Studio, Java/Kotlin, NDK, Gradle, ARM64 optimization
+
+💪 Accomplishments:
+- Migrated Android chess app from ARM to ARM64 for better performance and compliance with **Google Play’s 64-bit requirement**.
+- Refactoring native C/C++ code components and ensuring they compiled correctly for Arch64 using the **Android NDK**.  
+- Updating the Gradle build configuration and **ABI filters** to support **arm64-v8a**, with primary optimization for the latter.  
+- Resolving cross-compilation issues during the migration, particularly in areas where **32-bit** assumptions (like pointer sizes and memory alignment) were hardcoded.  
+- Testing the app for crashes and validating the **Arch64** build on physical and emulated devices to ensure compatibility, stability, and improved performance. 
 
 ---
 
 ## 🌐 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragrith-vijay/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github-username)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pragrith14@gmail.com)
 
 ---
